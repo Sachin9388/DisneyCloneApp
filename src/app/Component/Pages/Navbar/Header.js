@@ -1,6 +1,6 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { Footer } from "../Footer/Footer";
 
 export const Header = () => {
   return (
@@ -205,9 +205,8 @@ export const Header = () => {
             </div>
           </div>
         </div>
-        {/* <Outlet /> */}
+        <Outlet />
       </div>
-      <Footer />
     </>
   );
 };
