@@ -4,8 +4,8 @@ import Image from "../../../../assets/Images/Images";
 export const Footer = () => {
   return (
     <>
-      <footer className="pl-44" style={{ backgroundColor: "#0f1014" }}>
-        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <footer className="pl-44 bg-[#0f1014]  " >
+        <div className="mx-auto w-full max-w-screen-xl bottom-0 p-4 py-6 lg:py-8">
           <div className=" md:justify-between">
             <div className="grid grid-cols-4 gap-8 sm:gap-6 sm:grid-cols-4">
               <div>
@@ -76,7 +76,7 @@ export const Footer = () => {
                 <ul className="flex text-gray-500 dark:text-gray-400 font-medium">
                   <li>
                     <a
-                      href="#"
+                      href="/"
                       className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                     >
                       <svg
@@ -98,7 +98,7 @@ export const Footer = () => {
                   </li>
                   <li className="pl-6">
                     <a
-                      href="#"
+                      href="/"
                       className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                     >
                       <svg
@@ -128,13 +128,13 @@ export const Footer = () => {
             </span>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a
-                href="#"
+                href="/README.md"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
               >
                 <img className="w-28 h-10" src={Image.Googleplaystore} />
               </a>
               <a
-                href="#"
+                href="/"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
               >
                 <img className="w-28 h-10" src={Image.Iosappstore} />

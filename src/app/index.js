@@ -6,8 +6,12 @@ import { Footer } from "./Component/Pages/Footer/Footer";
 function MainApp() {
   return (
     <>
-      <Header />
-      <Routing />
+      <div className="fixed w-[15rem] top-0 left-0 hidden lg:block overflow-hidden overflow-y-auto">
+        <Header />
+      </div>
+      <div className="z-[9] bg-[#121419] overflow-hidden overflow-y-auto w- lg:w-[calc(100vw-12rem-8px)] ">
+        <Routing />
+      </div>
       <Footer />
     </>
   );
