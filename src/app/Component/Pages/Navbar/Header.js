@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { CgProfile } from "react-icons/cg";
 
 export const Header = () => {
   return (
@@ -84,122 +85,10 @@ export const Header = () => {
               <nav className="space-y-7 font-medium ">
                 <Link
                   to="/myspace"
-                  className="flex mt-5 gap-3 items-center p-2 text-gray-900 rounded-lg dark:text-white "
+                  className="flex mt-5 gap-3 items-center p-2 text-white rounded-lg dark:text-white group-hover:visible"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 -960 960 960"
-                    width="24"
-                  >
-                    <path
-                      d="M234-276q51-39 114-61.5T480-360q69 0 132 22.5T726-276q35-41 54.5-93T800-480q0-133-93.5-226.5T480-800q-133 0-226.5 93.5T160-480q0 59 19.5 111t54.5 93Zm246-164q-59 0-99.5-40.5T340-580q0-59 40.5-99.5T480-720q59 0 99.5 40.5T620-580q0 59-40.5 99.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q53 0 100-15.5t86-44.5q-39-29-86-44.5T480-280q-53 0-100 15.5T294-220q39 29 86 44.5T480-160Zm0-360q26 0 43-17t17-43q0-26-17-43t-43-17q-26 0-43 17t-17 43q0 26 17 43t43 17Zm0-60Zm0 360Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  My Space
-                </Link>
-                <Link
-                  to="/search"
-                  className="flex gap-3 items-center p-2 text-gray-900 rounded-lg dark:text-white "
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 -960 960 960"
-                    width="24"
-                  >
-                    <path
-                      d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  Search
-                </Link>
-                <Link
-                  to="/"
-                  className="flex gap-3 items-center p-2 text-gray-900 rounded-lg dark:text-white "
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 -960 960 960"
-                    width="24"
-                  >
-                    <path
-                      d="M160-120v-480l320-240 320 240v480H560v-280H400v280H160Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  Home
-                </Link>
-                <Link
-                  to="/tvshows"
-                  className="flex gap-3 items-center p-2 text-gray-900 rounded-lg dark:text-white "
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 -960 960 960"
-                    width="24"
-                  >
-                    <path
-                      d="M320-120v-80h80v-80H160q-33 0-56.5-23.5T80-360v-400q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v400q0 33-23.5 56.5T800-280H560v80h80v80H320Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  Tv
-                </Link>
-                <Link
-                  to="/movies"
-                  className="flex gap-3 items-center p-2 text-gray-900 rounded-lg dark:text-white "
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 -960 960 960"
-                    width="24"
-                  >
-                    <path
-                      d="m160-800 80 160h120l-80-160h80l80 160h120l-80-160h80l80 160h120l-80-160h120q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  Movies
-                </Link>
-                <Link
-                  to="/sports"
-                  className="flex gap-3 items-center p-2 text-gray-900 rounded-lg dark:text-white "
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 -960 960 960"
-                    width="24"
-                  >
-                    <path
-                      d="m414-168 12-56q3-13 12.5-21.5T462-256l124-10q13-2 24 5t16 19l16 38q39-23 70-55.5t52-72.5l-12-6q-11-8-16-19.5t-2-24.5l28-122q3-12 12.5-20t21.5-10q-5-25-12.5-48.5T764-628q-9 5-19.5 4.5T726-630l-106-64q-11-7-16-19t-2-25l8-34q-31-14-63.5-21t-66.5-7q-14 0-29 1.5t-29 4.5l30 68q5 12 2.5 25T442-680l-94 82q-10 9-23.5 10t-24.5-6l-92-56q-23 38-35.5 81.5T160-480q0 16 4 52l88-8q14-2 25.5 4.5T294-412l48 114q5 12 2.5 25T332-252l-38 32q27 20 57.5 33t62.5 19Zm72-172q-13 2-24-5t-16-19l-54-124q-5-12-1.5-25t13.5-21l102-86q9-9 22-10t24 6l112 66q11 7 17 19t3 25l-32 130q-3 13-12 21.5T618-352l-132 12Zm-6 260q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  Sports
-                </Link>
-                <Link
-                  to="/categories"
-                  className="flex gap-3 mb-12 items-center p-2 text-gray-900 rounded-lg dark:text-white "
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 -960 960 960"
-                    width="24"
-                  >
-                    <path
-                      d="m260-520 220-360 220 360H260ZM700-80q-75 0-127.5-52.5T520-260q0-75 52.5-127.5T700-440q75 0 127.5 52.5T880-260q0 75-52.5 127.5T700-80Zm-580-20v-320h320v320H120Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                  Categories
+                  <CgProfile />
+                  <p className="invisible hover:visible">My Space</p>
                 </Link>
               </nav>
             </div>

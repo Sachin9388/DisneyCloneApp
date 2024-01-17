@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { Paywall } from "../Pages/Paywall/Paywall";
 import { MySpace } from "../Pages/MySpace/MySpace";
-import { Search } from "../Pages/Search/Search";
+import  Search  from "../Pages/Search/Search";
 import { Home } from "../Pages/Home/Home";
 import { TvShows } from "../Pages/TvShows/TvShows";
 import { Movies } from "../Pages/Movies/Movies";
