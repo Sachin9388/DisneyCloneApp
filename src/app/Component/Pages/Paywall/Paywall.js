@@ -7,10 +7,7 @@ import Dropdown from "../../Dropdown/Dropdown";
 export const Paywall = () => {
   return (
     <>
-      <div
-        className="pt-8 flex flex-wrap justify-between"
-        style={{ backgroundColor: "#0f0f14" }}
-      >
+      <div className="pt-8 flex flex-wrap justify-between bg-[#0f0f14] ">
         <div className="pl-44 flex space-x-8">
           <div className="text-white">
             <button className="pt-10">
@@ -51,10 +48,7 @@ export const Paywall = () => {
             </div>
           </div>
         </div>
-        <div
-          className="text-white body-font overflow-hidden"
-          style={{ backgroundColor: "#0f1014" }}
-        >
+        <div className="text-white body-font overflow-hidden bg-[#0f1014]">
           <div className="px-5 py-10 mx-auto flex flex-wrap">
             <div className="mt-10 pr-20">
               <div className="space-y-10 mt-4 space-x-4 overflow-hidden">

@@ -7,7 +7,7 @@ export const Header = () => {
     <>
       <div className="">
         <div className="fixed">
-          <div className="py-4 w-44" style={{ backgroundColor: "#0f1014" }}>
+          <div className="py-4 w-44 bg-[#0f1014]">
             <div className="pl-5">
               <Link to="/paywall">
                 <svg
@@ -71,10 +71,7 @@ export const Header = () => {
                     </radialGradient>
                   </defs>
                 </svg>
-                <button
-                  className="mt-3 rounded-xl text-yellow-600 ml-[-10px] px-2 bg-#27231e"
-                  style={{ backgroundColor: "#27231e" }}
-                >
+                <button className="mt-3 rounded-xl text-yellow-600 ml-[-10px] px-2 bg-#27231e bg-[#27231e]">
                   Subscribe
                 </button>
                 <i className="fa-solid fa-greater-than"></i>
