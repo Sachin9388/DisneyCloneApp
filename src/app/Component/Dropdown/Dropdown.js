@@ -112,7 +112,7 @@ const Dropdown = () => {
     <>
       <div className="">
         <select
-          className="border-2 py-2 px-3 text-white border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2"
+          className=" py-[14px] px-7 text-white border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2"
           style={{ backgroundColor: "#222226" }}
         >
           <option className="text-gray-400">English</option>

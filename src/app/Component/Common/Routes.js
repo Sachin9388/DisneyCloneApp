@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import { Paywall } from "../Pages/Paywall/Paywall";
 import { MySpace } from "../Pages/MySpace/MySpace";
 import { Search } from "../Pages/Search/Search";
@@ -11,7 +11,7 @@ import { Categories } from "../Pages/Categories/Categories";
 
 const Routing = () => (
   <Routes>
-    <Route path="/" element={<Home />} />
+    <Route path="/home" element={<Home />} />
     <Route path="/paywall" element={<Paywall />} />
     <Route path="/myspace" element={<MySpace />} />
     <Route path="/search" element={<Search />} />
@@ -19,6 +19,7 @@ const Routing = () => (
     <Route path="/movies" element={<Movies />} />
     <Route path="/sports" element={<Sports />} />
     <Route path="/categories" element={<Categories />} />
+    <Route path="/*" element={<Navigate to="/home" />} />
   </Routes>
 );
 
