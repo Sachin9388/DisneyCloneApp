@@ -4,8 +4,8 @@ import Image from "../../../../assets/Images/Images";
 export const Footer = () => {
   return (
     <>
-      <footer className="pl-44 bg-[#0f1014]  " >
-        <div className="mx-auto w-full max-w-screen-xl bottom-0 p-4 py-6 lg:py-8">
+      <footer className="pl-44" style={{ backgroundColor: "#0f1014" }}>
+        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className=" md:justify-between">
             <div className="grid grid-cols-4 gap-8 sm:gap-6 sm:grid-cols-4">
               <div>
