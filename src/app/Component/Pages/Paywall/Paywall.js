@@ -51,7 +51,7 @@ export const Paywall = () => {
         </div>
       </div>
       <div className="flex space-x-1 bg-[#0f0f14]">
-        <div className="ml-40">
+        <div className="ml-36">
           <div>
             <div
               className=" bg-center relative"
